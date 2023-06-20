@@ -1,8 +1,6 @@
 #include "main.h"
-
 	/**
-	 * main - servers to print _putchar
-	 * no use of standard libraries
+	 * main - print _putchar
 	 * Return: 0
 	 */
 
@@ -20,3 +18,4 @@
 	_putchar('\n');
 	return (0);
 	}
+
