@@ -1,13 +1,10 @@
 #include <stdio.h>
 
 
-	/**
-	 * main - fibonacci <3
-	 *
-	 *
-	 * Return: 0  (Success)
-	 */
-
+/* 
+  * This program generates the Fibonacci sequence 
+  * up to a specified number of terms.
+*/
 
 	int main(void)
 	{
