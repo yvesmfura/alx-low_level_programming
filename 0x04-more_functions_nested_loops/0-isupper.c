@@ -3,9 +3,9 @@
 /**
  * _isupper - checks for upper case
  *
- * Return: 1 means true
- * Return: 0 means false
+ * Return: 1 if the character is uppercase, 0 if it is lower.
  */
+
 int _isupper(int c)	/* c is input*/
 {
 	if (c >= 'A' && c <= 'Z')
