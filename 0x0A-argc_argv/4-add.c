@@ -17,7 +17,7 @@ int check_num(char *str)
 	while (count < strlen(str)) /*count string*/
 
 	{
-		if (!isdigit(str[count])) 
+		if (!isdigit(str[count]))
 		{
 			return (0);
 		}
@@ -44,12 +44,12 @@ int main(int argc, char *argv[])
 	int sum = 0;
 
 	count = 1;
-	while (count < argc) 
+	while (count < argc)
 	{
 		if (check_num(argv[count]))
 
 		{
-			str_to_int = atoi(argv[count]); 
+			str_to_int = atoi(argv[count]);
 			sum += str_to_int;
 		}
 
@@ -66,4 +66,3 @@ int main(int argc, char *argv[])
 
 	return (0);
 }
-
