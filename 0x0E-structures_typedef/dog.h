@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * the new type dog withg below elements
- * name, type = char *
- * age, type = float
- * owner, type = char *
+ * struct dog - crete new type
+ * @name : member 1
+ * @age : member 2
+ * @owner : member 3
  */
 
 struct dog
@@ -17,9 +17,8 @@ struct dog
 	};
 
 /**
- * dog_t - typedef for struct dog
+ * dog_t - alias of struct dog
  */
-
 typedef struct dog dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
