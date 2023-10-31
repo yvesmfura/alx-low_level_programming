@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <fcntl.h>
 #include <unistd.h>
+#include "main.h"
 
 /**
  * read_textfile - Reads a specified number of bytes from a text file
