@@ -3,12 +3,11 @@
 #include "main.h"
 
 /**
- * Copies the contents of one file to another.
- *
- * @parameter argc The number of command-line arguments.
- * @parameter argv The array of command-line arguments.
- * @return 0 on success, or a nonzero error code on failure.
- */
+* main - program that copies the content of a file to another file
+* @parameter argc: num argument
+* @parameter argv: string argument
+* Return: 0
+*/
 
 int main(int argc, char *argv[])
 {
@@ -52,4 +51,3 @@ if (close(file_to) == -1)
 
 return (0);
 }
-
