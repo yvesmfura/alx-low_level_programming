@@ -4,8 +4,8 @@
 
 /**
 * main - program that copies the content of a file to another file
-* @parameter argc: num argument
-* @parameter argv: string argument
+* @argc: num argument
+* @argv: string argument
 * Return: 0
 */
 
